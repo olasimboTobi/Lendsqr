@@ -1,0 +1,10 @@
+.picture{
+    width: 100%;
+}
+
+.picture--image{
+    object-fit: contain;
+    width:min(600px, 80%);
+    margin-top:min(20rem, 20%) 
+
+}

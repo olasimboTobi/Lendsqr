@@ -1,0 +1,60 @@
+section{
+    width: 80%;
+    /* background-color:fuchsia; */
+    margin-top: min(25rem, 39%)
+}
+.section--header{
+    width:100%;
+    font-size:4em;
+    color:#213F7D;
+}
+
+.section--text{
+    width:100%;
+    font-size:1.6em; 
+    color:#545F7D;
+    margin-bottom: min(3rem, 12%)
+}
+
+input[type=email],.section--pwd,.section--btn{
+    width: 100%;
+    padding: 1em 1em;
+    margin: 0.8em 0;
+    display: inline-block;
+    border: 0.1em solid #ccc;
+    border-radius: 0.4em;
+    box-sizing: border-box;
+    /* border:none; */
+    outline: none;
+  }
+
+.section--pwd--input{
+    border:none;
+    outline: none; 
+}
+
+.section--pwd{
+    position: relative;
+}
+
+.section--show{
+    position: absolute;
+    right: 1em;
+    top:1em;
+    color:#39CDCC;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.section--forget--pwd{
+    cursor: pointer;
+    color:#39CDCC; 
+}
+
+.section--btn{
+    cursor: pointer;
+    background-color:#39CDCC;
+    color:#FFFFFF;
+}
+

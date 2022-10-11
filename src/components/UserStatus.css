@@ -1,0 +1,26 @@
+.body--status{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:space-around;
+    gap:0.1em;
+    width:23%;
+    height:19vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: min(3em, 10%);
+}
+
+.body--avatar{
+    padding-left: min(2em, 10%);
+    width:20%;
+    /* border:50px; */
+}
+
+.body--title{
+    padding-left: min(2em, 10%);
+    
+}
+
+.body--users{
+    padding-left: min(2em, 10%);
+}

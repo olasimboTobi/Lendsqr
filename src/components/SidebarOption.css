@@ -1,0 +1,28 @@
+.sidebarOption{
+    width: 100%;
+    padding-top:min(2em, 30%);
+    display:flex;
+    /* background-color:pink; */
+    align-items:center;
+    flex-wrap: nowrap;
+    /* flex-grow: 1; */
+    color:#213F7D;
+    cursor: pointer;
+    /* transition: 200ms color ease-in; */
+}
+
+/* .sidebarOption:hover{
+    color: white;
+} */
+
+.sidebarOption--icon{
+    /* padding-left: min(1em, 10%); */
+    /* flex:0.4; */
+    padding-right: min(1em, 10%);
+}
+
+.sidebarOption--dropdown{
+    /* padding-left: 2em; */
+    /* text-align: center; */
+    /* font-size:3em; */
+}

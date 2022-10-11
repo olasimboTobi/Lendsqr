@@ -1,0 +1,44 @@
+.table--content{
+    /* display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: start;
+    gap:1em; */
+    padding-left: 4em;
+    display:flex;
+    justify-content:space-between;
+    
+
+    margin-top: min(4em,20%);
+}
+
+.table--username, .table--email,.table--phone,.table--date,.table--status{
+    padding-left: 5em;
+} 
+
+.table--username, .table--email,.table--phone,.table--date{
+    padding-left: 7em;
+}
+
+
+
+/* .table--inactive{
+    padding: 10em 25em;
+    background-color:545F7D;
+    color: gray;
+}
+
+.table--blacklisted{
+    padding: 10em 25em; 
+    background-color:E4033B;
+}
+
+.table--active{
+    padding: 10em 25em; 
+    background-color:39CD62;
+}
+
+.table--pending{
+    padding: 10em 25em; 
+    background-color:E9B200;
+} */
