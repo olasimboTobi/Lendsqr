@@ -5,7 +5,7 @@ import Body from '../components/Body'
 import "./Users.css"
 
 
-function Users({users}) {
+function Users({users,onLink}) {
   return (
     <div className="users--container">
       <div className="users--header">
@@ -13,7 +13,7 @@ function Users({users}) {
       </div>
       <div className="users--content">
         <Sidebar/>
-        <Body users={users}/>
+        <Body users={users} onLink={onLink}/>
       </div>
       
     </div>

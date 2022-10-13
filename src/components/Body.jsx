@@ -7,11 +7,12 @@ import icon2 from "../download/icon2.png"
 import icon4 from "../download/icon4.png"
 import TableHeader from "./TableHeader"
 import TableContent from "./TableContent"
-import {MdFilterList} from "react-icons/md"
+// import {MdFilterList} from "react-icons/md"
+import FilterListIcon from '@material-ui/icons/FilterList';
 import ReactPaginate from "react-paginate"
 
 
-function Body({users}) {
+function Body({users, onLink}) {
   
   const PER_PAGE = 10;
 
@@ -37,6 +38,7 @@ function Body({users}) {
         phone={user?.profile?.phoneNumber}
         date_joined={user?.createdAt.toLocaleString()}
         status={user?.lastActiveDate.toLocaleString()}
+        onLink={onLink}
        />
     )
   })
@@ -76,32 +78,32 @@ function Body({users}) {
           <div className="table--header">
             <TableHeader
               title="ORGANIZATION"
-              symbol={<MdFilterList/>}
+              symbol={<FilterListIcon/>}
              
             />
             <TableHeader
               title="USERNAME"
-              symbol={<MdFilterList/>}
+              symbol={<FilterListIcon/>}
               
             />
             <TableHeader
               title="EMAIL"
-              symbol={<MdFilterList/>}
+              symbol={<FilterListIcon/>}
               
             />
             <TableHeader
               title="PHONE NUMBER"
-              symbol={<MdFilterList/>}
+              symbol={<FilterListIcon/>}
               
             />
             <TableHeader
               title="DATE JOINED"
-              symbol={<MdFilterList/>}
+              symbol={<FilterListIcon/>}
               
             />
             <TableHeader
               title="STATUS"
-              symbol={<MdFilterList/>}
+              symbol={<FilterListIcon/>}
               
             />
           </div>

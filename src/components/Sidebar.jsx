@@ -58,6 +58,7 @@ function Sidebar() {
         <SidebarOption Icon = {MdRoomPreferences} title="Preferences"/>
         <SidebarOption Icon = {FaRegImages} title="Fees and Pricing"/>
         <SidebarOption Icon = {GrOrganization} title="Audit Logs"/>
+        
     </div>
   )
 }

@@ -7,7 +7,8 @@ import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
 import {Link} from "react-router-dom"
 
 function Header({users}) {
-
+  
+  const[inputValue, setInputValue] = useState('')
   const[userId, setUserId] = useState('')
 
   const onUserChanged = e => setUserId(e.target.value)
@@ -20,7 +21,7 @@ function Header({users}) {
         <img src={Group} alt="logo" className="header--logo"/>
       </div>
       <div className="header--search">
-        <input placeholder="Search for anything" className="header--input"/>
+        <input placeholder="Search for anything" value={inputValue} className="header--input"/>
         <div className="header--search--icon">
           <SearchIcon className="search--icon"/>
         </div>

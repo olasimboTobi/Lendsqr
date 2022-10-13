@@ -1,0 +1,60 @@
+.user--detail{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:2em;
+    padding-top: min(2em,10%);
+    /* background-color:red; */
+}
+
+.user--container{
+    width:100%;
+    min-height:15vh;
+    /* background-color:aquamarine; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: #213F7D;;
+}
+
+.user--detail--header{
+    flex:0.4;
+    width:50%;
+    gap:2em;
+    border-right:0.1em solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.user--detail--name{
+    /* font-size:1em; */
+}
+
+.user--star{
+    width: 20%; 
+    border-right:0.1em solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items:space-around;
+    /* gap:4em; */
+}
+
+.user--detail--star{
+    color:gold;
+    font-size:1em;
+    
+}
+
+.user--headline{
+    display: flex;
+    justify-content: space-around;
+    font-size:1.2em;
+}
+
+.general{
+    border-bottom:0.2em solid #39CDCC;
+    color:#39CDCC;
+}

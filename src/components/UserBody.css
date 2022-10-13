@@ -1,0 +1,79 @@
+.userBody{
+    width:95%;
+    margin: 0 auto;
+    position:absolute;
+    bottom:-55em;
+    padding-left:min(20em,13%);
+    
+}
+
+.userBody--top{
+    display: flex;
+    gap:2em;
+    align-items: center;
+}
+
+.userBody--text{
+    font-size: 1.5em;
+}
+
+.userBody--detail--active{
+    margin-top: min(2em,5%);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: min(2em,5%);
+}
+
+.userBody--detail--title{
+    font-size:2em;
+    color:#213F7D;
+}
+
+.blacklist--active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:8em;
+
+}
+
+.blacklist{
+    padding:0.5em 2em;
+    background-color:#E5E5E5;
+    border:0.1em solid red;
+    color:red;
+    font-size: 1.5em;
+    border-radius:0.5em;
+}
+
+.active{
+    padding:0.5em 2em;
+    background-color:rgb(242, 242, 242);
+    border:0.1em solid #39CDCC;
+    color:#39CDCC;
+    font-size: 1.5em;
+    border-radius:0.5em;
+}
+
+.users--detail--page{
+    width: 100%;
+    background-color:rgb(242, 242, 242);
+    font-size: 1.2em;
+    border-radius: 0.5em;
+}
+
+.user--info{
+    margin-top: min(3em,10%);
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+  
+   
+    /* background-color:gainsboro; */
+}
+
+.personal, .education{
+    width: 100%;
+    
+}

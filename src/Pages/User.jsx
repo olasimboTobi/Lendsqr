@@ -1,20 +1,26 @@
 import React from 'react'
-import Header from "../components/Header"
+import UserHeader from "../components/UserHeader"
 import Sidebar from '../components/Sidebar'
-import Body from '../components/Body'
-// import {useParams} from 'react-router-dom'
+import UserBody from '../components/UserBody'
+import "./User.css"
 
-function User({users}) {
-  // const {id} = useParams()
+
+function User() {
+  
   return (
     <div className="users--container">
       <div className="users--header">
-       <Header users={users}/>
+       <UserHeader/>
       </div>
       <div className="users--content">
         <Sidebar/>
-        <Body users={users}/>
+        <div className="users--body--detail">
+          <UserBody /> 
+        </div>
+       
       </div>
+      
+      
       
     </div>
   )

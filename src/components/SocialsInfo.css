@@ -1,0 +1,23 @@
+.socialsInfo{
+    width:100%;
+    padding-left:3em;
+    color:#213F7D;
+    background-color:rgb(242, 242, 242);
+}
+
+.info{
+    width:95%;
+    /* margin-top: 2em; */
+    min-height: 20vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:3em;
+    border-bottom:0.1em solid lightgray;
+}
+
+
+.social--name{
+    width:20%
+}
