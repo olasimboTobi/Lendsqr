@@ -18,9 +18,12 @@ Use the section headers to reference the following locations:
 ## Description
 
 **Dashboard** Build the  Login, Dashboard, User page, User details page
-The user pages should pull data from a mock api with 500 records
-and also local storage or indexedDB to store and retrieve user details on the user details page.
-The page must be mobile responsive
+The user pages pulls data from a mock api with 500 records
+and also local storage  to store and retrieve user details on the user details page.
+The way the web app works;
+1)login to the Users Page 
+2) In the Users page you could click any of the User Record to go to that particular User's Detail page.
+3)In the User Detail Page you could logout back to the login page.
 
 
 ## Technologies
